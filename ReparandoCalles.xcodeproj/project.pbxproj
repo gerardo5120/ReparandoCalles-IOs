@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4112C5F81D467FA60038FAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4112C5F71D467FA60038FAFE /* AppDelegate.swift */; };
+		4112C5FA1D467FA60038FAFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4112C5F91D467FA60038FAFE /* ViewController.swift */; };
+		4112C5FD1D467FA60038FAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4112C5FB1D467FA60038FAFE /* Main.storyboard */; };
+		4112C5FF1D467FA60038FAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4112C5FE1D467FA60038FAFE /* Assets.xcassets */; };
+		4112C6021D467FA70038FAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4112C6001D467FA70038FAFE /* LaunchScreen.storyboard */; };
+		4112C60D1D467FA70038FAFE /* ReparandoCallesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4112C60C1D467FA70038FAFE /* ReparandoCallesTests.swift */; };
+		4112C6181D467FA70038FAFE /* ReparandoCallesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4112C6171D467FA70038FAFE /* ReparandoCallesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4112C6091D467FA70038FAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4112C5EC1D467FA60038FAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4112C5F31D467FA60038FAFE;
+			remoteInfo = ReparandoCalles;
+		};
+		4112C6141D467FA70038FAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4112C5EC1D467FA60038FAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4112C5F31D467FA60038FAFE;
+			remoteInfo = ReparandoCalles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4112C5F41D467FA60038FAFE /* ReparandoCalles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReparandoCalles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4112C5F71D467FA60038FAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4112C5F91D467FA60038FAFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4112C5FC1D467FA60038FAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4112C5FE1D467FA60038FAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4112C6011D467FA70038FAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4112C6031D467FA70038FAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4112C6081D467FA70038FAFE /* ReparandoCallesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReparandoCallesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4112C60C1D467FA70038FAFE /* ReparandoCallesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReparandoCallesTests.swift; sourceTree = "<group>"; };
+		4112C60E1D467FA70038FAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4112C6131D467FA70038FAFE /* ReparandoCallesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReparandoCallesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4112C6171D467FA70038FAFE /* ReparandoCallesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReparandoCallesUITests.swift; sourceTree = "<group>"; };
+		4112C6191D467FA70038FAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4112C5F11D467FA60038FAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4112C6051D467FA70038FAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4112C6101D467FA70038FAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4112C5EB1D467FA60038FAFE = {
+			isa = PBXGroup;
+			children = (
+				4112C5F61D467FA60038FAFE /* ReparandoCalles */,
+				4112C60B1D467FA70038FAFE /* ReparandoCallesTests */,
+				4112C6161D467FA70038FAFE /* ReparandoCallesUITests */,
+				4112C5F51D467FA60038FAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4112C5F51D467FA60038FAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4112C5F41D467FA60038FAFE /* ReparandoCalles.app */,
+				4112C6081D467FA70038FAFE /* ReparandoCallesTests.xctest */,
+				4112C6131D467FA70038FAFE /* ReparandoCallesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4112C5F61D467FA60038FAFE /* ReparandoCalles */ = {
+			isa = PBXGroup;
+			children = (
+				4112C5F71D467FA60038FAFE /* AppDelegate.swift */,
+				4112C5F91D467FA60038FAFE /* ViewController.swift */,
+				4112C5FB1D467FA60038FAFE /* Main.storyboard */,
+				4112C5FE1D467FA60038FAFE /* Assets.xcassets */,
+				4112C6001D467FA70038FAFE /* LaunchScreen.storyboard */,
+				4112C6031D467FA70038FAFE /* Info.plist */,
+			);
+			path = ReparandoCalles;
+			sourceTree = "<group>";
+		};
+		4112C60B1D467FA70038FAFE /* ReparandoCallesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4112C60C1D467FA70038FAFE /* ReparandoCallesTests.swift */,
+				4112C60E1D467FA70038FAFE /* Info.plist */,
+			);
+			path = ReparandoCallesTests;
+			sourceTree = "<group>";
+		};
+		4112C6161D467FA70038FAFE /* ReparandoCallesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4112C6171D467FA70038FAFE /* ReparandoCallesUITests.swift */,
+				4112C6191D467FA70038FAFE /* Info.plist */,
+			);
+			path = ReparandoCallesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4112C5F31D467FA60038FAFE /* ReparandoCalles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4112C61C1D467FA70038FAFE /* Build configuration list for PBXNativeTarget "ReparandoCalles" */;
+			buildPhases = (
+				4112C5F01D467FA60038FAFE /* Sources */,
+				4112C5F11D467FA60038FAFE /* Frameworks */,
+				4112C5F21D467FA60038FAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReparandoCalles;
+			productName = ReparandoCalles;
+			productReference = 4112C5F41D467FA60038FAFE /* ReparandoCalles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4112C6071D467FA70038FAFE /* ReparandoCallesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4112C61F1D467FA70038FAFE /* Build configuration list for PBXNativeTarget "ReparandoCallesTests" */;
+			buildPhases = (
+				4112C6041D467FA70038FAFE /* Sources */,
+				4112C6051D467FA70038FAFE /* Frameworks */,
+				4112C6061D467FA70038FAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4112C60A1D467FA70038FAFE /* PBXTargetDependency */,
+			);
+			name = ReparandoCallesTests;
+			productName = ReparandoCallesTests;
+			productReference = 4112C6081D467FA70038FAFE /* ReparandoCallesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4112C6121D467FA70038FAFE /* ReparandoCallesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4112C6221D467FA70038FAFE /* Build configuration list for PBXNativeTarget "ReparandoCallesUITests" */;
+			buildPhases = (
+				4112C60F1D467FA70038FAFE /* Sources */,
+				4112C6101D467FA70038FAFE /* Frameworks */,
+				4112C6111D467FA70038FAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4112C6151D467FA70038FAFE /* PBXTargetDependency */,
+			);
+			name = ReparandoCallesUITests;
+			productName = ReparandoCallesUITests;
+			productReference = 4112C6131D467FA70038FAFE /* ReparandoCallesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4112C5EC1D467FA60038FAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Cruz Gerardo Yañez Teran";
+				TargetAttributes = {
+					4112C5F31D467FA60038FAFE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4112C6071D467FA70038FAFE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4112C5F31D467FA60038FAFE;
+					};
+					4112C6121D467FA70038FAFE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4112C5F31D467FA60038FAFE;
+					};
+				};
+			};
+			buildConfigurationList = 4112C5EF1D467FA60038FAFE /* Build configuration list for PBXProject "ReparandoCalles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4112C5EB1D467FA60038FAFE;
+			productRefGroup = 4112C5F51D467FA60038FAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4112C5F31D467FA60038FAFE /* ReparandoCalles */,
+				4112C6071D467FA70038FAFE /* ReparandoCallesTests */,
+				4112C6121D467FA70038FAFE /* ReparandoCallesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4112C5F21D467FA60038FAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4112C6021D467FA70038FAFE /* LaunchScreen.storyboard in Resources */,
+				4112C5FF1D467FA60038FAFE /* Assets.xcassets in Resources */,
+				4112C5FD1D467FA60038FAFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4112C6061D467FA70038FAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4112C6111D467FA70038FAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4112C5F01D467FA60038FAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4112C5FA1D467FA60038FAFE /* ViewController.swift in Sources */,
+				4112C5F81D467FA60038FAFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4112C6041D467FA70038FAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4112C60D1D467FA70038FAFE /* ReparandoCallesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4112C60F1D467FA70038FAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4112C6181D467FA70038FAFE /* ReparandoCallesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4112C60A1D467FA70038FAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4112C5F31D467FA60038FAFE /* ReparandoCalles */;
+			targetProxy = 4112C6091D467FA70038FAFE /* PBXContainerItemProxy */;
+		};
+		4112C6151D467FA70038FAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4112C5F31D467FA60038FAFE /* ReparandoCalles */;
+			targetProxy = 4112C6141D467FA70038FAFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4112C5FB1D467FA60038FAFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4112C5FC1D467FA60038FAFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4112C6001D467FA70038FAFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4112C6011D467FA70038FAFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4112C61A1D467FA70038FAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4112C61B1D467FA70038FAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4112C61D1D467FA70038FAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReparandoCalles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GerardoYanez.ReparandoCalles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4112C61E1D467FA70038FAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReparandoCalles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GerardoYanez.ReparandoCalles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4112C6201D467FA70038FAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReparandoCallesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GerardoYanez.ReparandoCallesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReparandoCalles.app/ReparandoCalles";
+			};
+			name = Debug;
+		};
+		4112C6211D467FA70038FAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReparandoCallesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GerardoYanez.ReparandoCallesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReparandoCalles.app/ReparandoCalles";
+			};
+			name = Release;
+		};
+		4112C6231D467FA70038FAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReparandoCallesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GerardoYanez.ReparandoCallesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReparandoCalles;
+			};
+			name = Debug;
+		};
+		4112C6241D467FA70038FAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReparandoCallesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GerardoYanez.ReparandoCallesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReparandoCalles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4112C5EF1D467FA60038FAFE /* Build configuration list for PBXProject "ReparandoCalles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4112C61A1D467FA70038FAFE /* Debug */,
+				4112C61B1D467FA70038FAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4112C61C1D467FA70038FAFE /* Build configuration list for PBXNativeTarget "ReparandoCalles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4112C61D1D467FA70038FAFE /* Debug */,
+				4112C61E1D467FA70038FAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4112C61F1D467FA70038FAFE /* Build configuration list for PBXNativeTarget "ReparandoCallesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4112C6201D467FA70038FAFE /* Debug */,
+				4112C6211D467FA70038FAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4112C6221D467FA70038FAFE /* Build configuration list for PBXNativeTarget "ReparandoCallesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4112C6231D467FA70038FAFE /* Debug */,
+				4112C6241D467FA70038FAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4112C5EC1D467FA60038FAFE /* Project object */;
+}
